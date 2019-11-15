@@ -12,20 +12,6 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'demo-hk': {
-      label: '演示服务-香港节点',
-      lines: {
-        // 主机:权重
-        'node-aliyun-hk-1.etherdream.com:8443': 1,
-        'node-aliyun-hk-2.etherdream.com:8443': 2,
-      }
-    },
-    'demo-sg': {
-      label: '演示服务-新加坡节点',
-      lines: {
-        'node-aliyun-sg.etherdream.com:8443': 1,
-      },
-    },
     'mysite': {
       label: '当前站点',
       lines: {
@@ -37,15 +23,12 @@ jsproxy_config({
       label: '',
       hidden: true,
       lines: {
-        // 收费版（高权重）
-        'node-cfworker-2.etherdream.com': 4,
-
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
-        'b.007.workers.dev': 1,
-        'b.hehe.workers.dev': 1,
-        'b.lulu.workers.dev': 1,
-        'b.jsproxy.workers.dev': 1,
+        'proxy-1.yunpan-adil.workers.dev': 1,
+        'twilight-sun-819f.yunpan-adil.workers.dev': 1,
+        'yellow-fog-c574.yunpan-adil.workers.dev': 1,
+        'wispy-firefly-3585.yunpan-adil.workers.dev': 1,
       }
     }
   },
