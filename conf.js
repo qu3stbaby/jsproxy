@@ -25,10 +25,11 @@ jsproxy_config({
       lines: {
         // 免费版（低权重，分摊一些成本）
         // 每个账号每天 10 万次免费请求，但有频率限制
-        'proxy-1.yunpan-adil.workers.dev': 1,
-        'twilight-sun-819f.yunpan-adil.workers.dev': 1,
-        'yellow-fog-c574.yunpan-adil.workers.dev': 1,
-        'wispy-firefly-3585.yunpan-adil.workers.dev': 1,
+        'proxy-1.yunpan-adil.workers.dev': 4,
+        'twilight-sun-819f.yunpan-adil.workers.dev': 4,
+        'yellow-fog-c574.yunpan-adil.workers.dev': 4,
+        'wispy-firefly-3585.yunpan-adil.workers.dev': 4,
+        'bold-feather-d31d.yunpan-adil.workers.dev': 4,
       }
     }
   },
